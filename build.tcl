@@ -29,5 +29,5 @@ exec >@stdout 2>@stderr {*}$buildit
 
 #Remove source package
 file delete -force $base
-#file delete -force $base.tar.gz
+file delete -force $base.tar.gz
 
