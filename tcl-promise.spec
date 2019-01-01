@@ -5,7 +5,7 @@
 %define tarname promise
 
 Name:           tcl-promise
-Version:        1.0.3
+Version:        1.1.0
 Release:        0
 License:        BSD-2-License
 Summary:        The promise module for Tcl
@@ -28,14 +28,14 @@ the Javascript/ECMAScript standard.
 
 %install
 mkdir -p %{buildroot}%_datadir/tcl/%{tarname}%{version}
-cp promise-1.0.3.tm %{buildroot}%_datadir/tcl/%{tarname}%{version}
+cp promise-1.1.0.tm %{buildroot}%_datadir/tcl/%{tarname}%{version}
 
 cat > %{buildroot}%_datadir/tcl/%{tarname}%{version}/pkgIndex.tcl << 'EOD'
 #
 # Tcl package index file
 #
-package ifneeded promise 1.0.3 \
-    [list source [file join $dir promise-1.0.3.tm]]
+package ifneeded promise 1.1.0 \
+    [list source [file join $dir promise-1.1.0.tm]]
 EOD
 
 %clean

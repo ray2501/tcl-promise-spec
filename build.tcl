@@ -1,9 +1,9 @@
 #!/usr/bin/tclsh
 
 set arch "noarch"
-set base "promise-1.0.3"
+set base "promise-1.1.0"
 
-set fileurl "https://sourceforge.net/projects/tcl-promise/files/promise-1.0.3.tm"
+set fileurl "https://sourceforge.net/projects/tcl-promise/files/promise-1.1.0.tm"
 
 set var [list wget $fileurl -O $base.tm]
 exec >@stdout 2>@stderr {*}$var
