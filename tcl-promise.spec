@@ -7,7 +7,7 @@
 Name:           tcl-promise
 Version:        1.1.0
 Release:        0
-License:        BSD-2-License
+License:        BSD-2-Clause
 Summary:        The promise module for Tcl
 Url:            http://tcl-promise.magicsplat.com/
 Group:          Development/Languages/Tcl
